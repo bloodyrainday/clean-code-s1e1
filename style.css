@@ -27,7 +27,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task-input {
+.add-task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -110,7 +110,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > .task-input[type="checkbox"] {
+li > .task-item__checkbox[type="checkbox"] {
   margin: 0 10px;
 }
 .task-item > .task-item__label {
@@ -138,7 +138,7 @@ li > .task-input[type="checkbox"] {
 }
 
 /* Edit Task */
-.task-item .task-input[type=text] {
+.task-item .task-item__input[type=text] {
   display: none;
 }
 
