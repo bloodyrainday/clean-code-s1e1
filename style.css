@@ -61,7 +61,7 @@ button{
 }
 /* Heading */
 .main-content__title,
-.task-item__label[for="new-task"] {
+.add-task__label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
